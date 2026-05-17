@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
 # LOAD DATA
-df = pd.read_csv("titanic.csv")
+df = pd.read_csv("Titanic-Dataset.csv")
 
 # CLEANING
 df['Age'] = df['Age'].fillna(df['Age'].median())
