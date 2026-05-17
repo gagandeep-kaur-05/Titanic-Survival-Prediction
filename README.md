@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ### Train Model
 
 ```bash
-python train_model.py
+python logisticRegressionModel.py
 ```
 
 ### Run Streamlit App
